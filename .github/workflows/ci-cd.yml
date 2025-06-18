@@ -46,3 +46,4 @@ jobs:
       - name: Push Docker image
         run: |
           docker push $ {{ secrets.DOCKER_USERNAME }}/flask-app:latest
+          # Optionally, you can also tag and push a specific version
